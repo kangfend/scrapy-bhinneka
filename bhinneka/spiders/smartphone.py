@@ -47,5 +47,4 @@ class BhinnekaSpider(Spider):
                 callback=self.parse_items,
                 dont_filter=True
             )
-        else:
-            return self.items
+        return self.items
